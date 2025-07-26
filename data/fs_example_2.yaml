@@ -1,0 +1,91 @@
+few_shot_cn: |
+  A 47-year-old Caucasian male with a history of an aortic valve replacement, Factor V Leiden anomaly, migraines, and a competitive cycling hobby presented with new paracentral blind spots in the right eye following a fishing trip in Florida on August 28, 2014. The patient reported that the vision loss began during a fishing trip when he became dehydrated and had not resolved. He described three to four similar events that occurred previously following episodes of extreme physical activity, however, all resolving. On presentation in 2016, visual acuity was 20/20 in both eyes. No fundus abnormalities were noted. Amsler grid testing revealed two scotomas about 1 and 4 degrees superior nasal to fixation in the right eye. Spectral-domain OCT imaging also revealed several hyperreflective bands in the middle retina of the right eye (Figure ). In Figure , the hyporeflective lesions seen at the border of the fovea inferior temporal and slightly further out were consistent with his subjective superior nasal scotomas on Amsler grid testing. Spectral-domain OCT findings of PAMM were corroborated with the Chief of the Retinal Service at the New York Eye and Ear Infirmary. The patient was diagnosed with findings consistent with PAMM. At that time, no treatment was given. While diagnostic measures were not taken during this patient’s first few described episodes, it was thought that the previous episodes were also consistent with PAMM, given their similar presentation on the Amsler grid testing and symptomatology.
+  In mid-2018, the patient presented with a left-sided visual scotoma that had developed following a recent episode of febrile gastroenteritis. Treatment started with niacinamide OTC minerals, which helped initially over 30-40 minutes. After consulting with his cardiologist, nitroglycerin was prescribed but not taken. The patient was treated with 325 mg of aspirin and 200 mg of ibuprofen every 4 hours, with minimal relief."
+
+fs_conv: |
+  
+  Doctor: Good morning, how are you feeling today?
+  
+  Patient: Good morning, doctor. I'm feeling okay.
+  
+  Doctor: That's good to hear. Can you tell me about your medical history?
+  
+  Patient: Sure. I've had an aortic valve replacement and a Factor V Leiden anomaly. I also suffer from migraines and I'm a competitive cyclist.
+  
+  Doctor: I see. What brings you in today?
+  
+  Patient: I've been experiencing some vision loss in my right eye.
+  
+  Doctor: Can you tell me more about that?
+  
+  Patient: It started on a fishing trip in 2014. I became dehydrated and started to see blind spots. It eventually resolved, but it's happened a few times before after extreme physical activity.
+  
+  Doctor: I see. And when was your last episode of vision loss?
+  
+  Patient: It was just recently after a bout of febrile gastroenteritis.
+  
+  Doctor: Okay. Let's take a look at your eyes. [Doctor checks patient's eyes] Your visual acuity is 20/20 in both eyes and I don't see any abnormalities. Can you tell me what you see on the Amsler grid?
+  
+  Patient: I see two scotomas about 1 and 4 degrees superior nasal to fixation in my right eye.
+  
+  Doctor: Okay. Let's take a look at your imaging. [Doctor shows the patient the imaging] These hyperreflective bands in the middle retina of your right eye are consistent with your scotomas on the Amsler grid.
+  
+  Patient: Hmm, okay.
+  
+  Doctor: The findings are consistent with a condition called PAMM.
+  
+  Patient: What's that?
+  
+  Doctor: It's a condition where there are lesions in the retina. The ones near the fovea inferior temporal and slightly further out are consistent with your scotomas.
+  
+  Patient: I see.
+  
+  Doctor: Yes, the Retinal Service at the New York Eye and Ear Infirmary confirmed the diagnosis. At that time, no treatment was given, but we can start now if you'd like.
+  
+  Patient: Okay.
+  
+  Doctor: For your recent episode, you started treatment with niacinamide OTC minerals, correct?
+  
+  Patient: Yes, it helped initially over 30-40 minutes.
+  
+  Doctor: And after consulting with your cardiologist, nitroglycerin was prescribed but not taken. You were treated with 325 mg of aspirin and 200 mg of ibuprofen every 4 hours, with minimal relief.
+  
+  Patient: That's correct.
+  
+  Doctor: Alright. I'll prescribe a different medication for you to try and we'll schedule a follow-up appointment in a few weeks to see how you're doing.
+  
+  Patient: Okay, doctor. Thank you.
+
+
+fs_utterance: |
+  1.Medical History : Have an aortic valve replacement and factor V leiden anomaly. 
+  2.Patient is a competitive cyclist with issues from migranes and suffering from vision loss 
+  in right eye.
+  3.First vision loss was seen  in 2014 during a fishing trip, experiencing dehydration with blind spots
+  4. Eventually recovered but experiencing vision loss again after extreme physical activity
+  5. Most recent vision loss episode occurred after febrile gastroenteritis
+  6. Doctor checked visual acuity is 20/20 in both eyes, with no observable abnormalities
+  7.Amsler grid test shows two scotomas at 1 and 4 degrees superior nasal to fixation in right eye
+  8.  Examined retinal imaging of hyperreflective bands in the middle retina of right eye, consistent with scotomas
+  9. Diagnosis consistent with PAMM.Lesions observed near fovea inferior temporal and further out, aligning with scotoma locations
+  10. Retinal Service at New York Eye and Ear Infirmary confirm diagnosis,and not treated that time. 
+  11. Recommended treatment with niacinamide and OTC minerals for immediate episode with initial relief in 30–40 minutes
+  12. Doctor consulted patients cardiologist, Nitroglycerin was prescribed but not taken. 
+  13. Explains patient that he was treated with 325 mg aspirin and 200 mg ibuprofen every 4 hours, with minimal relief
+  14. New medication was prescribed by doctor and follow-up scheduled in a few weeks
+
+fs_sentence_mapping: |
+  1. History of aortic valve replacement and Factor V Leiden anomaly,migranes
+  2. Competitive cyclist suffering from migraines and right eye vision loss
+  3. First vision loss episode reported was during 2014 fishing trip with dehydration and blind spots
+  4. Vision loss recurred several times after extreme physical activity, but somehow resolved
+  5. Most recent episode occurred after febrile gastroenteritis in mid 2018
+  6. Visual acuity 20/20 in both eyes with no fundus abnormalities were noted
+  7. Amsler grid revealed two scotomas at 1° and 4° superior nasal to fixation in right eye
+  8. Spectral domain OCT imaging showed hyperreflective bands in middle retina of right eye, matching scotomas
+  9. In figure PAMM diagnosis confirmed with lesions near fovea inferior temporal aligning with symptoms
+  10. Diagnosis corroborated by Retinal Service at NY Eye and Ear Infirmary, no treatment was given at that time
+  11. Treated recent episode with niacinamide and OTC minerals,patient got partial relief within 30–40 minutes
+  12. Nitroglycerin prescribed after cardiology consultation by doctor but not taken
+  13. The patient was treated with 325 mg aspirin and 200 mg ibuprofen every 4 hours with minimal relief
+  14. New medication prescribed and follow-up scheduled in few weeks
