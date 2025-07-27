@@ -29,6 +29,18 @@ Requirements:
 
 Few-shot examples will follow below.'''
 
+output_rules_level_1='''Return the output as a JSON array of objects but don't add json keyword in the begining .
+
+Final object must follow this structure:
+
+{
+  "utterances": ["<utterance from the conversation>"],
+  "mapped_sentences": ["<corresponding sentence from the clinical note>"]
+}
+
+Note: consolidate all the  utterances in to a list and consolidate all the mapped_sentences in to list. 
+'''
+
 def get_CQAD_prompt(context):
     CQAD_prompt = f'''
 Generate USMLE-style questions using GPT based on a provided chunk of information. The process involves creating a question set that includes:

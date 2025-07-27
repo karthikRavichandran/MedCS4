@@ -1,6 +1,6 @@
 import os
 from utils.utils import project_root_dir, load_fs_example
-from utils.prompts import base_pt_level_1
+from utils.prompts import base_pt_level_1,output_rules_level_1
 from data.example_context import example_inf_cn,example_inf_conv
 
 def read_fs_base_pt():
@@ -159,6 +159,8 @@ def get_cs4_level_pt(prompt_comp, inf_cn, inf_conv):
     Utterances: YOUR ANSWER
     
     Sentences Mapping: YOUR ANSWER
+    
+    {output_rules_level_1}
     '''
     return final_exce_prompt
 
